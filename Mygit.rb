@@ -1,5 +1,4 @@
 class Mygit
-   
    attr_accessor :name
    def initialize(name)
       @message= name
@@ -7,9 +6,14 @@ class Mygit
    
    def message
       return @message
-   end
-      
+   end      
 end
 
 mg = Mygit.new("hello")
 puts "#{mg.message}"
+=begin
+helllo
+=end
+
+
+
